@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  VidioGoo
+//
+//  Created by admin on 16/8/15.
+//  Copyright © 2016年 SupingLi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifndef __IPHONE_5_0
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MKNetworkKit.h"
+#import "LKAPIClient.h"
+
+#define KBL_ROOT_URL @"www.bilibilijj.com/Api/AvToCid/"
+#define SCREEN_WIDTH                [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT               [UIScreen mainScreen].bounds.size.height
+
+#endif
+
+#endif /* PrefixHeader_pch */

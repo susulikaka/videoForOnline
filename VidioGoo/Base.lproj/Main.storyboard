@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,112 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N2n-C4-5fr">
+                                <rect key="frame" x="20" y="40" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gce-hQ-5bC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktd-BM-XBo">
+                                <rect key="frame" x="499" y="550" width="61" height="30"/>
+                                <state key="normal" title="webView"/>
+                                <connections>
+                                    <action selector="webViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfR-8V-CH4"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDL-xt-bxu">
+                                <rect key="frame" x="20" y="125" width="560" height="300"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="M4E-4G-dBX">
+                                        <rect key="frame" x="50" y="283" width="500" height="2"/>
+                                        <color key="backgroundColor" red="0.98842567205429077" green="0.99614053964614868" blue="0.99603396654129028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="progressTintColor" red="0.98327857255935669" green="0.085724271833896637" blue="0.022577172145247459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="trackTintColor" red="0.81352251768112183" green="0.95344465970993042" blue="0.937275230884552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTu-rF-pml">
+                                        <rect key="frame" x="10" y="269" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Sw0-xH-Ode"/>
+                                            <constraint firstAttribute="height" constant="30" id="Viy-ZX-OYe"/>
+                                        </constraints>
+                                        <state key="normal" image="play"/>
+                                        <connections>
+                                            <action selector="startPlayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9q-ft-vig"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2d-0J-J97">
+                                        <rect key="frame" x="514" y="272" width="46" height="30"/>
+                                        <state key="normal" title="放大"/>
+                                        <connections>
+                                            <action selector="fullScreenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eMp-Ip-QD7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="M4E-4G-dBX" secondAttribute="trailing" constant="31" id="0Gt-hb-8GD"/>
+                                    <constraint firstItem="M4E-4G-dBX" firstAttribute="leading" secondItem="IDL-xt-bxu" secondAttribute="leading" constant="50" id="89j-nO-lbE"/>
+                                    <constraint firstItem="M4E-4G-dBX" firstAttribute="leading" secondItem="IDL-xt-bxu" secondAttribute="leading" constant="30" id="F1M-Y7-XjV"/>
+                                    <constraint firstAttribute="trailing" secondItem="M4E-4G-dBX" secondAttribute="trailing" constant="10" id="LOT-lO-Oby"/>
+                                    <constraint firstItem="y2d-0J-J97" firstAttribute="centerY" secondItem="M4E-4G-dBX" secondAttribute="centerY" id="Mmr-Kt-OmJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="gTu-rF-pml" secondAttribute="bottom" constant="1" id="NgQ-Xk-Y7U"/>
+                                    <constraint firstItem="gTu-rF-pml" firstAttribute="leading" secondItem="IDL-xt-bxu" secondAttribute="leading" constant="10" id="a5K-E5-bFT"/>
+                                    <constraint firstItem="M4E-4G-dBX" firstAttribute="centerY" secondItem="gTu-rF-pml" secondAttribute="centerY" id="aVC-S0-Z7t"/>
+                                    <constraint firstAttribute="trailing" secondItem="y2d-0J-J97" secondAttribute="trailing" id="b2s-70-VE1"/>
+                                    <constraint firstAttribute="height" constant="300" id="feC-Dj-IMg"/>
+                                    <constraint firstAttribute="width" constant="500" id="tvq-mh-mVC"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="tvq-mh-mVC"/>
+                                        <exclude reference="0Gt-hb-8GD"/>
+                                        <exclude reference="F1M-Y7-XjV"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="top" secondItem="N2n-C4-5fr" secondAttribute="bottom" constant="45" id="2F4-IV-Gl5"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4Ra-4M-8Yn"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="79I-PR-mWO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ktd-BM-XBo" secondAttribute="trailing" constant="20" id="Jy4-bR-AKb"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="LWt-D6-ibN"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PqO-S9-M3M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N2n-C4-5fr" secondAttribute="trailing" id="ctW-hr-RbW"/>
+                            <constraint firstItem="N2n-C4-5fr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="jgF-SN-Gfk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IDL-xt-bxu" secondAttribute="trailing" id="lYB-A6-TpF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ktd-BM-XBo" secondAttribute="bottom" constant="20" id="rW6-IE-00g"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vYZ-SH-ITD"/>
+                            <constraint firstItem="N2n-C4-5fr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vsz-ae-EKS"/>
+                            <constraint firstItem="IDL-xt-bxu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zZP-r9-nIY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lYB-A6-TpF"/>
+                                <exclude reference="vYZ-SH-ITD"/>
+                                <exclude reference="zZP-r9-nIY"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="backView" destination="IDL-xt-bxu" id="fzs-oX-zek"/>
+                        <outlet property="fullBtn" destination="Mmr-Kt-OmJ" id="qUZ-B5-I0V"/>
+                        <outlet property="progressView" destination="M4E-4G-dBX" id="Iw0-4e-Wp9"/>
+                        <outlet property="startBtn" destination="gTu-rF-pml" id="LRr-UE-qI7"/>
+                        <outlet property="vidioUrl" destination="N2n-C4-5fr" id="ffZ-c2-rMt"/>
+                        <outlet property="webViewBtn" destination="ktd-BM-XBo" id="16r-7l-Z3f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="394" y="412"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="play" width="16" height="16"/>
+    </resources>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31BF1C296A19AA5623CA8F8A /* libPods-VidioGoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F46E00C0BA0CF2F28779ABC /* libPods-VidioGoo.a */; };
+		814D5AEFAB0A6AFDCFFFE028 /* libPods-VidioGooTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A63814A92D8346DB61060E /* libPods-VidioGooTests.a */; };
 		8446F8A61D5C175000E713E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F8A51D5C175000E713E2 /* main.m */; };
 		8446F8A91D5C175000E713E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F8A81D5C175000E713E2 /* AppDelegate.m */; };
 		8446F8AC1D5C175000E713E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F8AB1D5C175000E713E2 /* ViewController.m */; };
@@ -15,6 +17,44 @@
 		8446F8B41D5C175000E713E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446F8B21D5C175000E713E2 /* LaunchScreen.storyboard */; };
 		8446F8BF1D5C175000E713E2 /* VidioGooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F8BE1D5C175000E713E2 /* VidioGooTests.m */; };
 		8446F8CA1D5C175000E713E2 /* VidioGooUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F8C91D5C175000E713E2 /* VidioGooUITests.m */; };
+		84BC14FD1D61B6A700F8FF43 /* video.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC14FC1D61B6A700F8FF43 /* video.m */; };
+		84BC15011D61BA8F00F8FF43 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC14FF1D61BA8F00F8FF43 /* WebViewViewController.m */; };
+		84BC15021D61BA8F00F8FF43 /* WebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC15001D61BA8F00F8FF43 /* WebViewViewController.xib */; };
+		84ED50C41D61823F0074A192 /* YKPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50C31D61823F0074A192 /* YKPlayerSDK.framework */; };
+		84ED50C61D61826B0074A192 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50C51D61826B0074A192 /* libstdc++.tbd */; };
+		84ED50C81D6182750074A192 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50C71D6182750074A192 /* libresolv.tbd */; };
+		84ED50CA1D6182800074A192 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50C91D6182800074A192 /* libc++.tbd */; };
+		84ED50CC1D6182890074A192 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50CB1D6182890074A192 /* libz.1.2.5.tbd */; };
+		84ED50CE1D6182930074A192 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50CD1D6182930074A192 /* libbz2.1.0.tbd */; };
+		84ED50D01D6182A10074A192 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50CF1D6182A10074A192 /* libiconv.tbd */; };
+		84ED50D21D6182AA0074A192 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50D11D6182AA0074A192 /* CoreMedia.framework */; };
+		84ED50D41D6182B20074A192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50D31D6182B20074A192 /* CoreGraphics.framework */; };
+		84ED50D61D6183900074A192 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50D51D6183900074A192 /* SystemConfiguration.framework */; };
+		84ED50D81D6183980074A192 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50D71D6183980074A192 /* AVFoundation.framework */; };
+		84ED50DA1D6183A10074A192 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50D91D6183A10074A192 /* QuartzCore.framework */; };
+		84ED50DC1D6183A80074A192 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50DB1D6183A80074A192 /* CoreLocation.framework */; };
+		84ED50DE1D6183B60074A192 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50DD1D6183B60074A192 /* VideoToolbox.framework */; };
+		84ED50E01D6183C00074A192 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50DF1D6183C00074A192 /* Security.framework */; };
+		84ED50E21D6183C60074A192 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50E11D6183C60074A192 /* AdSupport.framework */; };
+		84ED50E41D6183CC0074A192 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50E31D6183CC0074A192 /* CoreTelephony.framework */; };
+		84ED50E61D6183D40074A192 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50E51D6183D40074A192 /* OpenGLES.framework */; };
+		84ED50E81D6183DB0074A192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50E71D6183DB0074A192 /* UIKit.framework */; };
+		84ED50EA1D6183E30074A192 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED50E91D6183E30074A192 /* AudioToolbox.framework */; };
+		84ED512D1D6193420074A192 /* LKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED50F11D6193420074A192 /* LKAPIClient.m */; };
+		84ED512E1D6193420074A192 /* LKAPIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED50F31D6193420074A192 /* LKAPIError.m */; };
+		84ED51301D6193420074A192 /* LKJSonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED50F81D6193420074A192 /* LKJSonModel.m */; };
+		84ED51311D6193420074A192 /* LKJSONResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED50FA1D6193420074A192 /* LKJSONResult.m */; };
+		84ED51331D6193420074A192 /* LKMSimpleMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED50FE1D6193420074A192 /* LKMSimpleMsg.m */; };
+		84ED51361D6193420074A192 /* LKOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51041D6193420074A192 /* LKOperation.m */; };
+		84ED51431D6193420074A192 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED511C1D6193420074A192 /* OpenUDID.m */; };
+		84ED51441D6193420074A192 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED511E1D6193420074A192 /* PDKeychainBindings.m */; };
+		84ED51451D6193420074A192 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51201D6193420074A192 /* PDKeychainBindingsController.m */; };
+		84ED51461D6193420074A192 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51221D6193420074A192 /* UIDevice+IdentifierAddition.m */; };
+		84ED51471D6193420074A192 /* UIImage+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51241D6193420074A192 /* UIImage+CornerRadius.m */; };
+		84ED51481D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51261D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.m */; };
+		84ED51491D6193420074A192 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED51281D6193420074A192 /* UIView+Nib.m */; };
+		84ED514A1D6193420074A192 /* LKMUserStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED512B1D6193420074A192 /* LKMUserStatus.m */; };
+		A8655C159FCDBEE90531B253 /* libPods-VidioGooUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6212F09DAF22F74C0D446378 /* libPods-VidioGooUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +75,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0261191FA87F9ACDF44BC782 /* Pods-VidioGooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGooUITests/Pods-VidioGooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E385F2F1C9B5E5B6E00F054 /* Pods-VidioGooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGooTests/Pods-VidioGooTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F46E00C0BA0CF2F28779ABC /* libPods-VidioGoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidioGoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6212F09DAF22F74C0D446378 /* libPods-VidioGooUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidioGooUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A8E7FCF69C46438CEBA861 /* Pods-VidioGooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGooTests/Pods-VidioGooTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8446F8A11D5C175000E713E2 /* VidioGoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidioGoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8446F8A51D5C175000E713E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8446F8A71D5C175000E713E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +96,65 @@
 		8446F8C51D5C175000E713E2 /* VidioGooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidioGooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8446F8C91D5C175000E713E2 /* VidioGooUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VidioGooUITests.m; sourceTree = "<group>"; };
 		8446F8CB1D5C175000E713E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BC14FB1D61B6A700F8FF43 /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		84BC14FC1D61B6A700F8FF43 /* video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = video.m; sourceTree = "<group>"; };
+		84BC14FE1D61BA8F00F8FF43 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		84BC14FF1D61BA8F00F8FF43 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		84BC15001D61BA8F00F8FF43 /* WebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewViewController.xib; sourceTree = "<group>"; };
+		84ED50C31D61823F0074A192 /* YKPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YKPlayerSDK.framework; sourceTree = "<group>"; };
+		84ED50C51D61826B0074A192 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		84ED50C71D6182750074A192 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		84ED50C91D6182800074A192 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		84ED50CB1D6182890074A192 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		84ED50CD1D6182930074A192 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		84ED50CF1D6182A10074A192 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		84ED50D11D6182AA0074A192 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		84ED50D31D6182B20074A192 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84ED50D51D6183900074A192 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84ED50D71D6183980074A192 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84ED50D91D6183A10074A192 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84ED50DB1D6183A80074A192 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84ED50DD1D6183B60074A192 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		84ED50DF1D6183C00074A192 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		84ED50E11D6183C60074A192 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		84ED50E31D6183CC0074A192 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		84ED50E51D6183D40074A192 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		84ED50E71D6183DB0074A192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84ED50E91D6183E30074A192 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84ED50F01D6193420074A192 /* LKAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAPIClient.h; sourceTree = "<group>"; };
+		84ED50F11D6193420074A192 /* LKAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAPIClient.m; sourceTree = "<group>"; };
+		84ED50F21D6193420074A192 /* LKAPIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAPIError.h; sourceTree = "<group>"; };
+		84ED50F31D6193420074A192 /* LKAPIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAPIError.m; sourceTree = "<group>"; };
+		84ED50F61D6193420074A192 /* LKInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKInternal.h; sourceTree = "<group>"; };
+		84ED50F71D6193420074A192 /* LKJSonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKJSonModel.h; sourceTree = "<group>"; };
+		84ED50F81D6193420074A192 /* LKJSonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKJSonModel.m; sourceTree = "<group>"; };
+		84ED50F91D6193420074A192 /* LKJSONResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKJSONResult.h; sourceTree = "<group>"; };
+		84ED50FA1D6193420074A192 /* LKJSONResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKJSONResult.m; sourceTree = "<group>"; };
+		84ED50FD1D6193420074A192 /* LKMSimpleMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMSimpleMsg.h; sourceTree = "<group>"; };
+		84ED50FE1D6193420074A192 /* LKMSimpleMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMSimpleMsg.m; sourceTree = "<group>"; };
+		84ED51031D6193420074A192 /* LKOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOperation.h; sourceTree = "<group>"; };
+		84ED51041D6193420074A192 /* LKOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOperation.m; sourceTree = "<group>"; };
+		84ED511B1D6193420074A192 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		84ED511C1D6193420074A192 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		84ED511D1D6193420074A192 /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		84ED511E1D6193420074A192 /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		84ED511F1D6193420074A192 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		84ED51201D6193420074A192 /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		84ED51211D6193420074A192 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		84ED51221D6193420074A192 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		84ED51231D6193420074A192 /* UIImage+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CornerRadius.h"; sourceTree = "<group>"; };
+		84ED51241D6193420074A192 /* UIImage+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerRadius.m"; sourceTree = "<group>"; };
+		84ED51251D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AllowPanGestureEventPass.h"; sourceTree = "<group>"; };
+		84ED51261D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AllowPanGestureEventPass.m"; sourceTree = "<group>"; };
+		84ED51271D6193420074A192 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		84ED51281D6193420074A192 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		84ED512A1D6193420074A192 /* LKMUserStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMUserStatus.h; sourceTree = "<group>"; };
+		84ED512B1D6193420074A192 /* LKMUserStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMUserStatus.m; sourceTree = "<group>"; };
+		84ED514B1D619A3F0074A192 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DC3F261A7F6B38CABC2FE47A /* Pods-VidioGooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGooUITests/Pods-VidioGooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A63814A92D8346DB61060E /* libPods-VidioGooTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidioGooTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53CD38CEC60BA274A79F79A /* Pods-VidioGoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGoo/Pods-VidioGoo.release.xcconfig"; sourceTree = "<group>"; };
+		F82FE5F973B8D228D907F1CC /* Pods-VidioGoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidioGoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidioGoo/Pods-VidioGoo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +162,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED50EA1D6183E30074A192 /* AudioToolbox.framework in Frameworks */,
+				84ED50E81D6183DB0074A192 /* UIKit.framework in Frameworks */,
+				84ED50E61D6183D40074A192 /* OpenGLES.framework in Frameworks */,
+				84ED50E41D6183CC0074A192 /* CoreTelephony.framework in Frameworks */,
+				84ED50E21D6183C60074A192 /* AdSupport.framework in Frameworks */,
+				84ED50E01D6183C00074A192 /* Security.framework in Frameworks */,
+				84ED50DE1D6183B60074A192 /* VideoToolbox.framework in Frameworks */,
+				84ED50DC1D6183A80074A192 /* CoreLocation.framework in Frameworks */,
+				84ED50DA1D6183A10074A192 /* QuartzCore.framework in Frameworks */,
+				84ED50D81D6183980074A192 /* AVFoundation.framework in Frameworks */,
+				84ED50D61D6183900074A192 /* SystemConfiguration.framework in Frameworks */,
+				84ED50D41D6182B20074A192 /* CoreGraphics.framework in Frameworks */,
+				84ED50D21D6182AA0074A192 /* CoreMedia.framework in Frameworks */,
+				84ED50D01D6182A10074A192 /* libiconv.tbd in Frameworks */,
+				84ED50CE1D6182930074A192 /* libbz2.1.0.tbd in Frameworks */,
+				84ED50CC1D6182890074A192 /* libz.1.2.5.tbd in Frameworks */,
+				84ED50CA1D6182800074A192 /* libc++.tbd in Frameworks */,
+				84ED50C81D6182750074A192 /* libresolv.tbd in Frameworks */,
+				84ED50C61D61826B0074A192 /* libstdc++.tbd in Frameworks */,
+				84ED50C41D61823F0074A192 /* YKPlayerSDK.framework in Frameworks */,
+				31BF1C296A19AA5623CA8F8A /* libPods-VidioGoo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814D5AEFAB0A6AFDCFFFE028 /* libPods-VidioGooTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +198,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8655C159FCDBEE90531B253 /* libPods-VidioGooUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBEDB70A44A1AAB2021FF6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F46E00C0BA0CF2F28779ABC /* libPods-VidioGoo.a */,
+				E5A63814A92D8346DB61060E /* libPods-VidioGooTests.a */,
+				6212F09DAF22F74C0D446378 /* libPods-VidioGooUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8446F8981D5C175000E713E2 = {
 			isa = PBXGroup;
 			children = (
+				84ED50E91D6183E30074A192 /* AudioToolbox.framework */,
+				84ED50E71D6183DB0074A192 /* UIKit.framework */,
+				84ED50E51D6183D40074A192 /* OpenGLES.framework */,
+				84ED50E31D6183CC0074A192 /* CoreTelephony.framework */,
+				84ED50E11D6183C60074A192 /* AdSupport.framework */,
+				84ED50DF1D6183C00074A192 /* Security.framework */,
+				84ED50DD1D6183B60074A192 /* VideoToolbox.framework */,
+				84ED50DB1D6183A80074A192 /* CoreLocation.framework */,
+				84ED50D91D6183A10074A192 /* QuartzCore.framework */,
+				84ED50D71D6183980074A192 /* AVFoundation.framework */,
+				84ED50D51D6183900074A192 /* SystemConfiguration.framework */,
+				84ED50D31D6182B20074A192 /* CoreGraphics.framework */,
+				84ED50D11D6182AA0074A192 /* CoreMedia.framework */,
+				84ED50CF1D6182A10074A192 /* libiconv.tbd */,
+				84ED50CD1D6182930074A192 /* libbz2.1.0.tbd */,
+				84ED50CB1D6182890074A192 /* libz.1.2.5.tbd */,
+				84ED50C91D6182800074A192 /* libc++.tbd */,
+				84ED50C71D6182750074A192 /* libresolv.tbd */,
+				84ED50C51D61826B0074A192 /* libstdc++.tbd */,
 				8446F8A31D5C175000E713E2 /* VidioGoo */,
 				8446F8BD1D5C175000E713E2 /* VidioGooTests */,
 				8446F8C81D5C175000E713E2 /* VidioGooUITests */,
 				8446F8A21D5C175000E713E2 /* Products */,
+				D2BBFFF8813AC7025BA0965F /* Pods */,
+				4DBEDB70A44A1AAB2021FF6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +259,16 @@
 		8446F8A31D5C175000E713E2 /* VidioGoo */ = {
 			isa = PBXGroup;
 			children = (
+				84ED50EB1D6193420074A192 /* Base */,
+				84ED50C31D61823F0074A192 /* YKPlayerSDK.framework */,
 				8446F8A71D5C175000E713E2 /* AppDelegate.h */,
 				8446F8A81D5C175000E713E2 /* AppDelegate.m */,
+				84ED514B1D619A3F0074A192 /* PrefixHeader.pch */,
 				8446F8AA1D5C175000E713E2 /* ViewController.h */,
 				8446F8AB1D5C175000E713E2 /* ViewController.m */,
+				84BC14FE1D61BA8F00F8FF43 /* WebViewViewController.h */,
+				84BC14FF1D61BA8F00F8FF43 /* WebViewViewController.m */,
+				84BC15001D61BA8F00F8FF43 /* WebViewViewController.xib */,
 				8446F8AD1D5C175000E713E2 /* Main.storyboard */,
 				8446F8B01D5C175000E713E2 /* Assets.xcassets */,
 				8446F8B21D5C175000E713E2 /* LaunchScreen.storyboard */,
@@ -140,6 +304,81 @@
 			path = VidioGooUITests;
 			sourceTree = "<group>";
 		};
+		84ED50EB1D6193420074A192 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84ED50EC1D6193420074A192 /* Account */,
+				84ED50F01D6193420074A192 /* LKAPIClient.h */,
+				84ED50F11D6193420074A192 /* LKAPIClient.m */,
+				84ED50F21D6193420074A192 /* LKAPIError.h */,
+				84ED50F31D6193420074A192 /* LKAPIError.m */,
+				84ED50F61D6193420074A192 /* LKInternal.h */,
+				84ED50F71D6193420074A192 /* LKJSonModel.h */,
+				84ED50F81D6193420074A192 /* LKJSonModel.m */,
+				84ED50F91D6193420074A192 /* LKJSONResult.h */,
+				84ED50FA1D6193420074A192 /* LKJSONResult.m */,
+				84BC14FB1D61B6A700F8FF43 /* video.h */,
+				84BC14FC1D61B6A700F8FF43 /* video.m */,
+				84ED50FD1D6193420074A192 /* LKMSimpleMsg.h */,
+				84ED50FE1D6193420074A192 /* LKMSimpleMsg.m */,
+				84ED51031D6193420074A192 /* LKOperation.h */,
+				84ED51041D6193420074A192 /* LKOperation.m */,
+				84ED511A1D6193420074A192 /* UDID */,
+				84ED51231D6193420074A192 /* UIImage+CornerRadius.h */,
+				84ED51241D6193420074A192 /* UIImage+CornerRadius.m */,
+				84ED51251D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.h */,
+				84ED51261D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.m */,
+				84ED51271D6193420074A192 /* UIView+Nib.h */,
+				84ED51281D6193420074A192 /* UIView+Nib.m */,
+				84ED51291D6193420074A192 /* UserStatus */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84ED50EC1D6193420074A192 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		84ED511A1D6193420074A192 /* UDID */ = {
+			isa = PBXGroup;
+			children = (
+				84ED511B1D6193420074A192 /* OpenUDID.h */,
+				84ED511C1D6193420074A192 /* OpenUDID.m */,
+				84ED511D1D6193420074A192 /* PDKeychainBindings.h */,
+				84ED511E1D6193420074A192 /* PDKeychainBindings.m */,
+				84ED511F1D6193420074A192 /* PDKeychainBindingsController.h */,
+				84ED51201D6193420074A192 /* PDKeychainBindingsController.m */,
+				84ED51211D6193420074A192 /* UIDevice+IdentifierAddition.h */,
+				84ED51221D6193420074A192 /* UIDevice+IdentifierAddition.m */,
+			);
+			path = UDID;
+			sourceTree = "<group>";
+		};
+		84ED51291D6193420074A192 /* UserStatus */ = {
+			isa = PBXGroup;
+			children = (
+				84ED512A1D6193420074A192 /* LKMUserStatus.h */,
+				84ED512B1D6193420074A192 /* LKMUserStatus.m */,
+			);
+			path = UserStatus;
+			sourceTree = "<group>";
+		};
+		D2BBFFF8813AC7025BA0965F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82FE5F973B8D228D907F1CC /* Pods-VidioGoo.debug.xcconfig */,
+				F53CD38CEC60BA274A79F79A /* Pods-VidioGoo.release.xcconfig */,
+				64A8E7FCF69C46438CEBA861 /* Pods-VidioGooTests.debug.xcconfig */,
+				1E385F2F1C9B5E5B6E00F054 /* Pods-VidioGooTests.release.xcconfig */,
+				DC3F261A7F6B38CABC2FE47A /* Pods-VidioGooUITests.debug.xcconfig */,
+				0261191FA87F9ACDF44BC782 /* Pods-VidioGooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +386,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8446F8CE1D5C175000E713E2 /* Build configuration list for PBXNativeTarget "VidioGoo" */;
 			buildPhases = (
+				06A8BDF8812679DE06AEBF87 /* [CP] Check Pods Manifest.lock */,
 				8446F89D1D5C175000E713E2 /* Sources */,
 				8446F89E1D5C175000E713E2 /* Frameworks */,
 				8446F89F1D5C175000E713E2 /* Resources */,
+				8AA492898117A48C74FAA6C4 /* [CP] Embed Pods Frameworks */,
+				A62AA70C6FBF486ECE28416E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +406,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8446F8D11D5C175000E713E2 /* Build configuration list for PBXNativeTarget "VidioGooTests" */;
 			buildPhases = (
+				DA7078475E23BBACCE91B13C /* [CP] Check Pods Manifest.lock */,
 				8446F8B61D5C175000E713E2 /* Sources */,
 				8446F8B71D5C175000E713E2 /* Frameworks */,
 				8446F8B81D5C175000E713E2 /* Resources */,
+				FC4DCB0B237AD5DC07575375 /* [CP] Embed Pods Frameworks */,
+				C0C0C2FF165F068ABBB7BF99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +427,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8446F8D41D5C175000E713E2 /* Build configuration list for PBXNativeTarget "VidioGooUITests" */;
 			buildPhases = (
+				1919CED9A4708BBEF8D0E47A /* [CP] Check Pods Manifest.lock */,
 				8446F8C11D5C175000E713E2 /* Sources */,
 				8446F8C21D5C175000E713E2 /* Frameworks */,
 				8446F8C31D5C175000E713E2 /* Resources */,
+				57AB57BBBCC0271DDCDB9502 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +492,7 @@
 			files = (
 				8446F8B41D5C175000E713E2 /* LaunchScreen.storyboard in Resources */,
 				8446F8B11D5C175000E713E2 /* Assets.xcassets in Resources */,
+				84BC15021D61BA8F00F8FF43 /* WebViewViewController.xib in Resources */,
 				8446F8AF1D5C175000E713E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +513,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06A8BDF8812679DE06AEBF87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1919CED9A4708BBEF8D0E47A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57AB57BBBCC0271DDCDB9502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidioGooUITests/Pods-VidioGooUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA492898117A48C74FAA6C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidioGoo/Pods-VidioGoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62AA70C6FBF486ECE28416E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidioGoo/Pods-VidioGoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C0C2FF165F068ABBB7BF99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidioGooTests/Pods-VidioGooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7078475E23BBACCE91B13C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4DCB0B237AD5DC07575375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidioGooTests/Pods-VidioGooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8446F89D1D5C175000E713E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED51331D6193420074A192 /* LKMSimpleMsg.m in Sources */,
+				84BC15011D61BA8F00F8FF43 /* WebViewViewController.m in Sources */,
 				8446F8AC1D5C175000E713E2 /* ViewController.m in Sources */,
+				84ED51461D6193420074A192 /* UIDevice+IdentifierAddition.m in Sources */,
+				84ED51301D6193420074A192 /* LKJSonModel.m in Sources */,
+				84ED51491D6193420074A192 /* UIView+Nib.m in Sources */,
 				8446F8A91D5C175000E713E2 /* AppDelegate.m in Sources */,
 				8446F8A61D5C175000E713E2 /* main.m in Sources */,
+				84ED51311D6193420074A192 /* LKJSONResult.m in Sources */,
+				84ED51431D6193420074A192 /* OpenUDID.m in Sources */,
+				84BC14FD1D61B6A700F8FF43 /* video.m in Sources */,
+				84ED51361D6193420074A192 /* LKOperation.m in Sources */,
+				84ED512E1D6193420074A192 /* LKAPIError.m in Sources */,
+				84ED514A1D6193420074A192 /* LKMUserStatus.m in Sources */,
+				84ED512D1D6193420074A192 /* LKAPIClient.m in Sources */,
+				84ED51481D6193420074A192 /* UIScrollView+AllowPanGestureEventPass.m in Sources */,
+				84ED51471D6193420074A192 /* UIImage+CornerRadius.m in Sources */,
+				84ED51451D6193420074A192 /* PDKeychainBindingsController.m in Sources */,
+				84ED51441D6193420074A192 /* PDKeychainBindings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +800,19 @@
 		};
 		8446F8CF1D5C175000E713E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82FE5F973B8D228D907F1CC /* Pods-VidioGoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VidioGoo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VidioGoo/PrefixHeader.pch;
 				INFOPLIST_FILE = VidioGoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.VidioGoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,10 +820,19 @@
 		};
 		8446F8D01D5C175000E713E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53CD38CEC60BA274A79F79A /* Pods-VidioGoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VidioGoo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VidioGoo/PrefixHeader.pch;
 				INFOPLIST_FILE = VidioGoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.VidioGoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,6 +840,7 @@
 		};
 		8446F8D21D5C175000E713E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A8E7FCF69C46438CEBA861 /* Pods-VidioGooTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VidioGooTests/Info.plist;
@@ -447,6 +853,7 @@
 		};
 		8446F8D31D5C175000E713E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E385F2F1C9B5E5B6E00F054 /* Pods-VidioGooTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VidioGooTests/Info.plist;
@@ -459,6 +866,7 @@
 		};
 		8446F8D51D5C175000E713E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F261A7F6B38CABC2FE47A /* Pods-VidioGooUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VidioGooUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +878,7 @@
 		};
 		8446F8D61D5C175000E713E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0261191FA87F9ACDF44BC782 /* Pods-VidioGooUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VidioGooUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +907,7 @@
 				8446F8D01D5C175000E713E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8446F8D11D5C175000E713E2 /* Build configuration list for PBXNativeTarget "VidioGooTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +916,7 @@
 				8446F8D31D5C175000E713E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8446F8D41D5C175000E713E2 /* Build configuration list for PBXNativeTarget "VidioGooUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +925,7 @@
 				8446F8D61D5C175000E713E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
